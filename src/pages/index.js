@@ -6,7 +6,8 @@ import SEO from '../components/seo'
 import PostList from '../components/postList'
 
 const IndexPage = () => {
-  const { posts } = useStaticQuery(getPosts)
+  const response = useStaticQuery(getPosts)
+  const posts = response.allMdx.edges
 
   return (
     <Layout>
@@ -23,7 +24,7 @@ export default IndexPage
 // query
 const getPosts = graphql`
   {
-    posts: allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+    allMdx(sort: {fields: frontmatter___date, order: DESC}) {
       totalCount
       edges {
         node {
