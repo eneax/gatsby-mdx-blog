@@ -30,6 +30,10 @@ const PostTemplate = ({ data }) => {
         </div>
 
         <Img fluid={img} />
+
+        <div className={styles.content}>
+          <MDXRenderer>{body}</MDXRenderer>
+        </div>
       </section>
     </Layout>
   )
