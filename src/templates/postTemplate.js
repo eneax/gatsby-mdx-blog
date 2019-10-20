@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import styles from './postTemplate.module.css'
-import Layout from '../components/layout'
+import Layout from '../components/layout/layout'
 
 
 const PostTemplate = ({ data }) => {

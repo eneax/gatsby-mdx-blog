@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from './postList.module.css'
-import PostCard from './postCard'
+import PostCard from '../postCard/postCard'
 
 const PostList = ({ posts }) => {
   return (
