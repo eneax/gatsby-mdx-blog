@@ -1,6 +1,6 @@
 {
   "name": "gatsby-mdx-blog",
-  "description": "A simple mdx blog starter to get you up and developing quickly with Gatsby",
+  "description": "A simple MDX blog starter to get you up and developing quickly with Gatsby",
   "version": "1.0.0",
   "author": "Enea Xharja <eneaxharja@gmail.com>",
   "dependencies": {

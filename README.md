@@ -7,7 +7,7 @@
   gatsby-mdx-blog
 </h1>
 
-A simple mdx blog starter to get you up and developing quickly with Gatsby.
+A simple MDX blog starter to get you up and developing quickly with Gatsby.
 
 ## 🚀 Quick start
 
